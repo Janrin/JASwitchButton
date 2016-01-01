@@ -1,0 +1,253 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2F34B72B1C3689BD002C46BE /* JASwitchButton.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2F34B72A1C3689BD002C46BE /* JASwitchButton.h */; };
+		2F34B72D1C3689BD002C46BE /* JASwitchButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F34B72C1C3689BD002C46BE /* JASwitchButton.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2F34B7251C3689BD002C46BE /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				2F34B72B1C3689BD002C46BE /* JASwitchButton.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2F34B7271C3689BD002C46BE /* libJASwitchButton.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libJASwitchButton.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F34B72A1C3689BD002C46BE /* JASwitchButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JASwitchButton.h; sourceTree = "<group>"; };
+		2F34B72C1C3689BD002C46BE /* JASwitchButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JASwitchButton.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2F34B7241C3689BD002C46BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2F34B71E1C3689BD002C46BE = {
+			isa = PBXGroup;
+			children = (
+				2F34B7291C3689BD002C46BE /* JASwitchButton */,
+				2F34B7281C3689BD002C46BE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2F34B7281C3689BD002C46BE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2F34B7271C3689BD002C46BE /* libJASwitchButton.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2F34B7291C3689BD002C46BE /* JASwitchButton */ = {
+			isa = PBXGroup;
+			children = (
+				2F34B72A1C3689BD002C46BE /* JASwitchButton.h */,
+				2F34B72C1C3689BD002C46BE /* JASwitchButton.m */,
+			);
+			path = JASwitchButton;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2F34B7261C3689BD002C46BE /* JASwitchButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F34B7301C3689BD002C46BE /* Build configuration list for PBXNativeTarget "JASwitchButton" */;
+			buildPhases = (
+				2F34B7231C3689BD002C46BE /* Sources */,
+				2F34B7241C3689BD002C46BE /* Frameworks */,
+				2F34B7251C3689BD002C46BE /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JASwitchButton;
+			productName = JASwitchButton;
+			productReference = 2F34B7271C3689BD002C46BE /* libJASwitchButton.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2F34B71F1C3689BD002C46BE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Janrin;
+				TargetAttributes = {
+					2F34B7261C3689BD002C46BE = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 2F34B7221C3689BD002C46BE /* Build configuration list for PBXProject "JASwitchButton" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2F34B71E1C3689BD002C46BE;
+			productRefGroup = 2F34B7281C3689BD002C46BE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2F34B7261C3689BD002C46BE /* JASwitchButton */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2F34B7231C3689BD002C46BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F34B72D1C3689BD002C46BE /* JASwitchButton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2F34B72E1C3689BD002C46BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2F34B72F1C3689BD002C46BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2F34B7311C3689BD002C46BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		2F34B7321C3689BD002C46BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2F34B7221C3689BD002C46BE /* Build configuration list for PBXProject "JASwitchButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F34B72E1C3689BD002C46BE /* Debug */,
+				2F34B72F1C3689BD002C46BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F34B7301C3689BD002C46BE /* Build configuration list for PBXNativeTarget "JASwitchButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F34B7311C3689BD002C46BE /* Debug */,
+				2F34B7321C3689BD002C46BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2F34B71F1C3689BD002C46BE /* Project object */;
+}
